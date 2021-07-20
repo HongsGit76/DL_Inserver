@@ -1,0 +1,3 @@
+/home/sdat789/HONG/torchscript/torchscript_tuto/app/CMakeFiles/rebuild_cache.dir
+/home/sdat789/HONG/torchscript/torchscript_tuto/app/CMakeFiles/edit_cache.dir
+/home/sdat789/HONG/torchscript/torchscript_tuto/app/CMakeFiles/example-app.dir
