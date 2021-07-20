@@ -36,8 +36,16 @@
         x = self.fc3(x)
         return x
 
+
 - exmaple-app.cpp
 
-로딩 후 포워딩 진행
+    - 로딩 후 포워딩 진행
 
-필요 파라미터 분석
+    - 필요 파라미터 분석
+
+    - c++ 에서 GPU로 model, data loading 후 관찰 => $nvprof --print-gpu-trace ./example-app net.pt
+
+
+- profiler_test.py
+
+    - 파이토치에서 제공하는 프로파일러
