@@ -1,3 +1,7 @@
 # PyTorch Study
 
-pytorch, torchscript, cuda extension에 대한 공부
+## Study about...
+
+pytorch, torchscript, cuda extension
+
+/torchscript_tuto - torch model load to c++
