@@ -4,7 +4,7 @@
 
 - lin.pt: sample input size => {10, 5}
 
-
+```python
     class Net(nn.Module):
         def __init__(self):
             super(Net, self).__init__()
@@ -12,11 +12,11 @@
         def forward(self, x):
             x = self.fc1(x)
             return x
-
+```
 
 - net.pt: sample input size => {1,3,224,224}
 
-
+```python
     class Net(nn.Module):
         def __init__(self):
             super(Net, self).__init__()
@@ -35,7 +35,7 @@
             x = F.relu(self.fc2(x))
             x = self.fc3(x)
             return x
-
+```
 
 - exmaple-app.cpp
 
