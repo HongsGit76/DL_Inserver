@@ -4,4 +4,15 @@
 
 pytorch, torchscript, cuda extension
 
-/torchscript_tuto - torch model load to c++
+- Directory
+
+    /torchscript_tuto: torch model load to c++
+
+- environment
+    - Ubuntu 18.04.5 LTS
+    - x68_64
+    - GPU: TITAN X
+    - nvidia ver: 455.23.05
+    - cuda ver: 11.1
+    - pytorch ver: 1.9.0
+    - cudnn ver: 7
