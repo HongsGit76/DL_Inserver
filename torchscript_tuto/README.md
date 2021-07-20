@@ -4,6 +4,7 @@
 
 - lin.pt: sample input size => {10, 5}
 
+
     class Net(nn.Module):
         def __init__(self):
             super(Net, self).__init__()
@@ -13,7 +14,9 @@
             x = self.fc1(x)
             return x
 
+
 - net.pt: sample input size => {1,3,224,224}
+
 
     class Net(nn.Module):
         def __init__(self):
